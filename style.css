@@ -77,3 +77,35 @@ img{
     text-align: center;
     line-height: 40px;
 }
+
+
+
+
+
+
+@media(max-width:990px){
+  .navbar-collapse{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255,255,255,.92);
+    padding-top: 2rem;
+    margin-top: 5.6rem; 
+    z-index: 99;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(60px);
+ }  
+
+.navbar-nav{
+    align-items: center;
+    gap:1rem;
+ }
+
+ .collapse{
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0px);
+ }
+}
