@@ -1,6 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    letter-spacing: .03rem;
+    color: var(--black-market);
+     font-family: "SN Pro", sans-serif;
+}
+
 :root{
     --white: #fff;
     --black-market: #231e41;
     --light-black-market:#6f6f87;
     --saffaron:#f5c332;
+    --dark-gray: #f2f3f5;
+    --light-gray: #f9fafc;
+}
+
+/* lol styling */
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* navbar styling */
+
+.navbar{
+    background: rgba(255,255,255,.92);
+    height: 7.5rem;
+    border-color: var(--dark-gray);
+    border-width: .063rem 0 .063rem 0;
+    border-style: solid;
+}
+.navbar-brand{
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: var(--black-market);
+}
+
+.nav-link{
+    color: var(--black-market);
+    font-size: 0.4rem;
+}
+
+.nav-item{
+    padding-inline: 1.5rem;
+}
+
+.fa-plate-wheat,
+.active,
+.nav-link:hover
+{
+    color: var(--saffaron) !important; 
+}
+
+.nav-icons{
+    font-size: 1.2rem;
+    padding-inline: .5rem;
+}
+
+.fa-cart-flatbed-suitcase{
+    font-size: 1.1rem;
+    background:var(--dark-gray);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
 }
